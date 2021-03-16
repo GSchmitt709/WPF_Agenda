@@ -1,0 +1,29 @@
+﻿<Page x:Class="Agenda.addCustomer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Agenda"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="addCustomer"
+      Background="LightBlue">
+
+    <Grid>
+        <Label FontSize="30" Content="Ajout d'un client" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="lastname" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox x:Name="lastnameBox" HorizontalAlignment="Left" Height="30" Margin="118,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="firstname" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox x:Name="firstnameBox" HorizontalAlignment="Left" Height="30" Margin="118,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="mail" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox x:Name="mailBox" HorizontalAlignment="Left" Height="30" Margin="118,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="phonenumber" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox x:Name="phonenumberBox" HorizontalAlignment="Left" Height="30" Margin="118,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="budget" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox x:Name="budgetBox" HorizontalAlignment="Left" Height="30" Margin="118,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Enregistrer" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="75" Click="Save"/>
+        <Button Content="Annuler" HorizontalAlignment="Left" Margin="163,240,0,0" VerticalAlignment="Top" Width="75" Click="Cancel"/>
+        <Label x:Name="AddLabel" Content="" HorizontalAlignment="Left" Margin="10,265,562,0" VerticalAlignment="Top" Height="56" Width="228"/>
+
+    </Grid>
+</Page>
